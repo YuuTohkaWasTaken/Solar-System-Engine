@@ -16,5 +16,8 @@
     "engine"
   ],
   "author": "Galen Fletcher",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/core": "^5.23.0"
+  }
 }
