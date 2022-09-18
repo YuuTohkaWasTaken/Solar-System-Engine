@@ -12,6 +12,6 @@ Step 3) Run the following commands:
 - npm install --save-dev webpack-dev-server
 
 # Running the repo
-Step 1) Run this command: npm run test
+Step 1) Run the following command: npm run test
 Step 2) Wait until the message "webpack 5.74.0 compiled successfully" is displayed a second time
 Step 3) Open http://localhost:6132/

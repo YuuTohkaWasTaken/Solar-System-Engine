@@ -6,6 +6,8 @@
       "noResolve": false,
       "noImplicitAny": false,
       "sourceMap": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
       "preserveConstEnums":true,
       "lib": [
           "dom",

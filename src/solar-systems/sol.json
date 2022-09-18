@@ -1,0 +1,51 @@
+{
+    "export": "planets",
+    "planets": [
+        {
+            "name": "mercury",
+            "texture": "",
+            "position": {
+                "x": 0.6970,
+                "y": 0.0411,
+                "z": 0
+            },
+            "equations": {
+                "x": {
+                    "amplitude": 0.5790905,
+                    "period": 2112,
+                    "center": 0.1190785
+                },
+                "y": {
+                    "amplitude": 0.0411,
+                    "period": 2112,
+                    "center": 0
+                },
+                "z": {
+                    "amplitude": 0.566697963,
+                    "period": 2112,
+                    "center": 0
+                }
+            },
+            "info": {
+                "orbit": {
+                    "lengthOfDay": 1407.5,
+                    "lengthOfYear": 2112,
+                    "amphelion": 69817900,
+                    "perihelion": 46001200
+                },
+                "atmosphere": {
+                    "pressure": "0.00000000001 bar",
+                    "composition": "oxygen, hydrogen, and sodium"
+                },
+                "magnitude": {
+                    "gravity": "3.7 m/s/s",
+                    "radius": 2439
+                },
+                "fun facts": [
+                    "Mercury is the smallest planet in the Sol System",
+                    "Mercury's biggest crater could fit the entirety of Western Europe"
+                ]
+            }
+        }
+    ]
+}
