@@ -1,9 +1,10 @@
 {
     "export": "planets",
+    "rootUrl": "https://raw.githubusercontent.com/YuuTohkaWasTaken/planettextures/main/",
     "planets": [
         {
             "name": "mercury",
-            "texture": "",
+            "texture": "mercury-texture.jpg",
             "position": {
                 "x": 0.6970,
                 "y": 0.0411,
@@ -31,7 +32,8 @@
                     "lengthOfDay": 1407.5,
                     "lengthOfYear": 2112,
                     "amphelion": 69817900,
-                    "perihelion": 46001200
+                    "perihelion": 46001200,
+                    "axial tilt": 2
                 },
                 "atmosphere": {
                     "pressure": "0.00000000001 bar",
@@ -43,7 +45,7 @@
                 },
                 "fun facts": [
                     "Mercury is the smallest planet in the Sol System",
-                    "Mercury's biggest crater could fit the entirety of Western Europe"
+                    "Mercury's largest crater could fit the entirety of Western Europe"
                 ]
             }
         }
