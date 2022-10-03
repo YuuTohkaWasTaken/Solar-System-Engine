@@ -3,7 +3,105 @@
     <head>
         <meta charset="UTF-8">
         <title>Solar System Engine</title>
+        <style>
+            canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+            body {
+                overflow: hidden;
+            }
+            #infoSheet {
+                width: 20%;
+                height: 70%;
+                right: 3%;
+                background-color: rgb(128, 128, 128);
+                top: 2.5%;
+                position: absolute;
+                opacity: 0;
+                z-index: -2;
+            }
+            .tab {
+                height: 5%;
+                top: 0;
+                position: absolute;
+                background-color: rgb(143, 143, 143);
+                width: 25%;
+                opacity: inherit;
+                text-align: center;
+            }
+            #orbit {
+                left: 0;
+            }
+            #magnitude {
+                left: 25%;
+            }
+            #atmosphere {
+                left: 50%;
+            }
+            #funFacts {
+                left: 75%;
+            }
+            #info {
+                position: absolute;
+                width: 94%;
+                left: 1%;
+                top: 3%;
+                height: 89%;
+                font-size: medium;
+                background-color: rgb(117, 117, 117);
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            #speed {
+                width: 180px;
+                height: 20px;
+                z-index: 3;
+            }
+            #lines {
+                width: 20px;
+                height: 20px;
+                z-index: 3;
+            }
+            label {
+                color: white;
+            }
+        </style>
     </head>
     <body>
+        <div id="curIndex"></div>
+        <div id="infoSheet">
+            <div id="orbit" class="tab" onselectstart="return false">Orbit</div>
+            <div id="magnitude" class="tab" onselectstart="return false">Magnitude</div>
+            <div id="atmosphere" class="tab" onselectstart="return false">Atmosphere</div>
+            <div id="funFacts" class="tab" onselectstart="return false">Fun Facts</div>
+            <p id="info"></p>
+        </div>
+        <label for="speed" onselectstart="return false">Speed</label>
+        <select id="speed" name="speed" onselectstart="return false">
+            <option value="0">Pause</option>
+            <option value="0.00000463">Real time</option>
+            <option value="0.0166666">1 hour per second</option>
+            <option value="0.4">1 day per second</option>
+            <option value="1.2">3 days per second</option>
+            <option value="2.8">1 week per second</option>
+            <option value="5.6" selected>2 weeks per second</option>
+            <option value="12">1 month per second</option>
+            <option value="36">3 months per second</option>
+            <option value="72">6 months per second</option>
+            <option value="144">1 year per second</option>
+            <option value="1440">1 decade per second</option>
+        </select>
+        <br>
+        <label for="orbitLines" onselectstart="return false">Show Orbit</label>
+        <input type="checkbox" name="orbitLines" id="lines" checked onselectstart="return false"></input>
+        <br><br>
+        <button id="recenter" onselectstart="return false">View</button>
+        <select id="centerMode">
+            <option value="0">Top down</option>
+            <option value="1">Isometric</option>
+        </select>
     </body>
 </html>

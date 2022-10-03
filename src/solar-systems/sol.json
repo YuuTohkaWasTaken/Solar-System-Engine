@@ -1,29 +1,25 @@
 {
-    "export": "planets",
     "rootUrl": "https://raw.githubusercontent.com/YuuTohkaWasTaken/planettextures/main/",
+    "sun": {
+        "texture": "sun-texture.jpg",
+        "radius": 696340,
+        "color": [253, 19, 19]
+    },
     "planets": [
         {
             "name": "mercury",
             "texture": "mercury-texture.jpg",
-            "position": {
-                "x": 0.6970,
-                "y": 0.0411,
-                "z": 0
-            },
             "equations": {
                 "x": {
                     "amplitude": 0.5790905,
-                    "period": 2112,
                     "center": 0.1190785
                 },
                 "y": {
                     "amplitude": 0.0411,
-                    "period": 2112,
                     "center": 0
                 },
                 "z": {
                     "amplitude": 0.566697963,
-                    "period": 2112,
                     "center": 0
                 }
             },
@@ -31,13 +27,13 @@
                 "orbit": {
                     "lengthOfDay": 1407.5,
                     "lengthOfYear": 2112,
-                    "amphelion": 69817900,
+                    "aphelion": 69817900,
                     "perihelion": 46001200,
                     "axial tilt": 2
                 },
                 "atmosphere": {
                     "pressure": "0.00000000001 bar",
-                    "composition": "oxygen, hydrogen, and sodium"
+                    "composition": "Oxygen, Hydrogen, and Sodium"
                 },
                 "magnitude": {
                     "gravity": "3.7 m/s/s",
@@ -46,6 +42,252 @@
                 "fun facts": [
                     "Mercury is the smallest planet in the Sol System",
                     "Mercury's largest crater could fit the entirety of Western Europe"
+                ]
+            }
+        },
+        {
+            "name": "venus",
+            "texture": "venus-texture.jpg",
+            "equations": {
+                "x": {
+                    "amplitude": 1.08208000,
+                    "center": 0.01462000
+                },
+                "y": {
+                    "amplitude": 0.075206368,
+                    "center": 0
+                },
+                "z": {
+                    "amplitude": 1.08208000,
+                    "center": 0
+                }
+            },           
+            "info": {
+                "orbit": {
+                    "lengthOfDay": 5832,
+                    "lengthOfYear": 5390,
+                    "aphelion": 108941000,
+                    "perihelion": 107480000,
+                    "axial tilt": 3
+                },
+                "atmosphere": {
+                    "pressure": "95 bar",
+                    "composition": "Carbon dioxide and Sulfuric acid"
+                },
+                "magnitude": {
+                    "gravity": "8.87 m/s/s",
+                    "radius": 6051.8
+                },
+                "fun facts": [
+                    "Venus is one of the two planets that rotate backwards on its axis",
+                    "Venus's day is longer than its year",
+                    "Venus's atmospheric pressure at its surface is ninety five times our own"  
+                ]
+            }
+        },
+        {
+            "name": "earth",
+            "texture": "earth-texture.jpg",
+            "equations": {
+                "x": {
+                    "amplitude": 1.484350395,
+                    "center": 0.024805321
+                },
+                "y": {
+                    "amplitude": 0.186332769,
+                    "center": 0.00311385
+                },
+                "z": {
+                    "amplitude": 1.49576,
+                    "center": 0
+                }
+            },            
+            "info": {
+                "orbit": {
+                    "lengthOfDay": 24,
+                    "lengthOfYear": 8760,
+                    "aphelion": 152097701,
+                    "perihelion": 147098074,
+                    "axial tilt": 7
+                },
+                "magnitude": {
+                    "radius": 6372.8,
+                    "gravity": "9.8 m/s/s"
+                },
+                "atmosphere": {
+                    "pressure": "1 bar",
+                    "composition": "Nitrogen, Oxygen, Argon, and Carbon Dioxide"
+                },
+                "fun facts": [
+                    "Earth is our home",
+                    "The unit of pressure, bar, is based on Earth's atmospheric pressure. 1 bar is our Earth's atmospheric pressure",
+                    "Earth's radius is very close to Venus', Venus' being 95% of the Earth's"
+                ]
+            }
+        },
+        {
+            "name": "mars",
+            "texture": "mars-texture.jpg",
+            "equations": {
+                "x": {
+                    "amplitude": 2.26792,
+                    "center": 0.211965
+                },
+                "y": {
+                    "amplitude": 0.22437,
+                    "center": 0.02097
+                },
+                "z": {
+                    "amplitude": 2.28,
+                    "center": 0
+                }
+            },            
+            "info": {
+                "orbit": {
+                    "lengthOfDay": 24.5,
+                    "lengthOfYear": 16488,
+                    "aphelion": 249200000,
+                    "perihelion": 206700000,
+                    "axial tilt": 25
+                },
+                "magnitude": {
+                    "radius": 3389.5,
+                    "gravity": "3.721 m/s/s"
+                },
+                "atmosphere": {
+                    "pressure": "0.006518 bar",
+                    "composition": "Carbon dioxide, Nitrogen, Argon, and Oxygen"
+                },
+                "fun facts": [
+                    "Mars used to have water on its surface",
+                    "Mars is the second smallest planet, breaking the pattern from Mercury to Earth",
+                    "Mars' red colour is caused by oxidization (rust) of the surface iron"
+                ]
+            }
+        },
+        {
+            "name": "jupiter",
+            "texture": "jupiter-texture.jpg",
+            "equations": {
+                "x": {
+                    "amplitude": 7.78296,
+                    "center": 0.3749
+                },
+                "y": {
+                    "amplitude": 0.177028,
+                    "center": 0.00852738
+                },
+                "z": {
+                    "amplitude": 7.77639651,
+                    "center": 0
+                }
+            },
+            "info": {
+                "orbit": {
+                    "lengthOfDay": 10,
+                    "lengthOfYear": 103992,
+                    "aphelion": 816300000,
+                    "perihelion": 740595000,
+                    "axial tilt": 3
+                },
+                "magnitude": {
+                    "radius": 69911,
+                    "gravity": "24.79 m/s/s"
+                },
+                "atmosphere": {
+                    "composition": "Hydrogen, Helium, Methane, and Ammonia",
+                    "pressure": "1 bar"
+                },
+                "fun facts": [
+                    "Jupiter is a gas giant, which explains why its pressure is only 1 bar",
+                    "Jupiter is the largest planet",
+                    "Jupiter has the shortest day"
+                ]
+            }
+        },
+        {
+            "name": "saturn",
+            "texture": "saturn-texture.jpg",
+            "equations": {
+                "x": {
+                    "amplitude": 14.27731,
+                    "center": 0.08067237
+                },
+                "y": {
+                    "amplitude": 0.1288,
+                    "center": 0.0727788
+                }, 
+                "z": {
+                    "amplitude": 14.307109,
+                    "center": 0
+                }
+            },
+            "rings": {
+                "radius": 1.25,
+                "texture": "saturn-rings.png"
+            },
+            "info": {
+                "orbit": {
+                    "lengthOfDay": 10.5,
+                    "lengthOfYear": 258216,
+                    "aphelion": 1514500000,
+                    "perihelion": 1352550000,
+                    "axial tilt": 5
+                },
+                "atmosphere": {
+                    "composition": "Hydrogen, Helium, Methane, and Ammonia",
+                    "pressure": "1.4 bar"
+                },
+                "magnitude": {
+                    "gravity": "10.4 m/s/s",
+                    "radius": 58232
+                },
+                "fun facts": [
+                    "Saturn's rings each rotate at different speeds",
+                    "Saturn's atmospheric composition is almost identical to Jupiter's",
+                    "Saturn is not the only planet with rings, Uranus and Neptune also have rings",
+                    "Saturn is a gas giant, which explains why its pressure is only 1 bar"
+                ]
+            }
+        },
+        {
+            "name": "uranus",
+            "texture": "uranus-texture.jpg",
+            "equations": {
+                "x": {
+                    "amplitude": 28.48726353,
+                    "center": 1.3348869
+                },
+                "y": {
+                    "amplitude": 3.235641083,
+                    "center": 0.151619167
+                },
+                "z": {
+                    "amplitude": 28.63851626,
+                    "center": 0
+                }
+            },
+            "info": {
+                "orbit": {
+                    "lengthOfDay": 17,
+                    "lengthOfYear": 740000,
+                    "aphelion": 3001390000,
+                    "perihelion": 2732696000,
+                    "axial tilt": 97
+                },
+                "magnitude": {
+                    "gravity": "8.87 m/s/s",
+                    "radius": 25362
+                },
+                "atmosphere": {
+                    "pressure":"1 bar",
+                    "composition": "Hydrogen, Helium, Methane, and Ammonia"
+                },
+                "fun facts": [
+                    "Despite the large difference in size and distance from the sun, Uranus's gravitational pull at it's surface is the same as Venus'",
+                    "Uranus's colour comes from the Methane in it's atmosphere",
+                    "Uranus's pronunciation was changed for obvious reasons, it is now pronounced 'UR-unus' instead of 'u-ray-nus'",
+                    "Uranus is tilted 97 degrees. This tilt is most likely due to an impact with an earth-sized icy object"
                 ]
             }
         }
